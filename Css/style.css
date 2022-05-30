@@ -1,0 +1,461 @@
+body{
+  margin:0;
+  padding: 0;
+  /* background-color: black; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: 'Montserrat', serif;
+  background-image: url("img/Top-bg.jpg")
+}
+
+.About-me{
+  font-family: 'Poppins', serif;
+  position: absolute;
+  display: block;
+  width:100%;
+  background-color: #474747;
+  text-align: center;
+  margin: 700px auto;
+}
+
+.About-me h1{
+  padding: 60px;
+}
+
+.About-me p{
+  margin: 0 auto 200px;
+  font-size: 1.5rem;
+  width:75%;
+  text-align: justify;
+
+}
+
+.inst{
+  width:40px;
+  position: absolute;
+  bottom: -1px;
+  left: -54px;
+  filter: invert(100%);
+}
+
+.inst:hover{
+  filter: invert(0%);
+}
+
+.About-me a{
+  position: absolute;
+  bottom: 122px;
+  left:600px;
+  font-size: 1.5rem;
+  width:25%;
+  text-align: center;
+  text-align: justify;
+  text-decoration: none;
+  color: white;
+
+}
+
+.About-me a:hover{
+  color:black;
+}
+
+.Blue{
+  position:absolute;
+  top: 83px;
+  right: 228px;
+  width: 75px;
+}
+
+.Pink{
+  position:absolute;
+  bottom: 65px;
+  left: 95px;
+  width: 45px;
+}
+
+
+.PP{
+  position: absolute;
+  left: 200px;
+  top:220px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.Profile h1{
+  position: absolute;
+  font-family: 'Poppins', serif;
+  font-size: 2.75rem;
+  top: 240px;
+  right: 295px;
+}
+.Profile p{
+  position: absolute;
+  text-align: justify;
+  width:48%;
+  font-family: 'Poppins', serif;
+  font-size: 1.5rem;
+  top: 342px;
+  right: 135px;
+}
+
+.shape{
+  position: absolute;
+  top: 404px;
+  right: 145px;
+  width:15%;
+  opacity: 0.18;
+  transform: rotate(45deg);
+}
+
+
+.top {
+  /* position: sticky;
+  top:0; */
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  background-color: #616161;
+  padding: 1px 2px;
+}
+
+.top div li{
+  display: inline-block;
+  margin: 0 15px;
+  padding: 0 10px;
+}
+.top div li a{
+  color: white;
+  text-decoration: none;
+}
+
+.top div li a:hover , .top div li a.Active {
+  color: black;
+}
+
+.Education{
+font-family: 'Poppins', serif;
+position: absolute;
+display: block;
+width:100%;
+background-color: #636363;
+text-align: center;
+margin: 1368px auto;
+}
+
+.Education ul{
+  margin-left: 150px;
+}
+
+.Education h1{
+  margin-top: 40px;
+  padding: 30px
+}
+
+.Education h3{
+  font-size: 1.5rem;
+}
+
+.Education p{
+  font-size: 1.2rem;
+}
+
+.Education hr{
+    width: 65%;
+    border-style : none;
+    border-top-style: solid;
+    border-top-color: #f56200;
+    border-width: 6px;
+    margin: 50px 180px 50px 160px;
+}
+
+.Education ul li{
+  list-style: none;
+  text-align: left;
+  }
+
+.Education .hid{
+  border-top-color: #636363;
+}
+
+.lower{
+  margin-top: 1800px;
+  width: 100%;
+}
+
+.upper{
+  width:100%;
+}
+
+.skills{
+  position: absolute;
+  margin: 2375px auto;
+  width: 100%;
+  background-color: #7a7a7a;
+  font-family: Poppins, serif;
+}
+
+
+.skills h1{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
+.skills div hr{
+    width: 550px;
+    border-style : none;
+    border-top-style: solid;
+    border-top-color: #2e2e2e;
+    border-width: 15px;
+    border-radius: 10px;
+  }
+
+/* HTML */
+
+.skills .one{
+  display: inline-block;
+  margin-left: 20px;
+}
+.skills h2.one1{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+
+.skills div hr.one2{
+  margin-left: 100px;
+}
+.skills div hr.one3{
+  position: relative;
+  top: -23px;
+  width: 520px;
+  margin-left: 99px;
+  border-top-color: #005ac2;
+}
+
+/* CSS */
+
+.skills .two{
+  display: inline-block;
+  margin-left: 80px;
+}
+
+.skills h2.two1{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+
+.skills div hr.two2{
+  margin-left: 100px;
+}
+.skills div hr.two3{
+  position: relative;
+  top: -23px;
+  width: 510px;
+  margin-left: 99px;
+  border-top-color: #005ac2;
+}
+
+/* Bootstrap */
+
+.skills .three{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.skills h2.three1{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+
+.skills div hr.three2{
+  margin-left: 100px;
+}
+.skills div hr.three3{
+  position: relative;
+  top: -23px;
+  width: 460px;
+  margin-left: 99px;
+  border-top-color: #005ac2;
+}
+
+/* Javascript */
+.skills .four{
+  display: inline-block;
+  margin-left: 80px;
+}
+
+.skills h2.four1{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+
+.skills div hr.four2{
+  margin-left: 100px;
+}
+.skills div hr.four3{
+  position: relative;
+  top: -23px;
+  width: 485px;
+  margin-left: 99px;
+  border-top-color: #005ac2;
+}
+
+
+.skills .five{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.skills h2.five1{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+
+.skills div hr.five2{
+  margin-left: 100px;
+}
+.skills div hr.five3{
+  position: relative;
+  top: -23px;
+  width: 535px;
+  margin-left: 99px;
+  border-top-color: #005ac2;
+}
+
+
+.skills .six{
+  display: inline-block;
+  margin-bottom: 80px;
+  margin-left: 80px;
+}
+
+.skills h2.six1{
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+
+.skills div hr.six2{
+  margin-left: 100px;
+}
+.skills div hr.six3{
+  position: relative;
+  top: -23px;
+  width: 520px;
+  margin-left: 99px;
+  border-top-color: #005ac2;
+}
+
+.Contact{
+  position: absolute;
+  margin-top:3220px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins' , serif;
+}
+.Contact p{
+  font-size: 1.3rem;
+}
+
+.Contact .addr{
+  position: relative;
+  top:5px;
+  display: inline-block;
+  background-color: #545454;
+  width: 18%;
+  border-radius: 15px;
+  padding: 40px 15px 40px;
+}
+
+.Contact .phone{
+  position: relative;
+  top: -9px;
+  display: inline-block;
+  background-color: #545454;
+  width: 18%;
+  border-radius: 15px;
+  padding: 56px 15px 56px;
+}
+
+.Contact .email{
+  position: relative;
+  top: -9px;
+  display: inline-block;
+  background-color: #545454;
+  width: 18%;
+  border-radius: 15px;
+  padding: 56px 15px 56px;
+}
+
+.Contact .social{
+  position: relative;
+  top: 9px;
+  display: inline-block;
+  background-color: #545454;
+  width: 18%;
+  border-radius: 15px;
+  padding: 58px 15px 58px;
+}
+
+.insta-img{
+  filter:invert(100%);
+  width:40px;
+  padding: 0 10px;
+}
+
+.fb-img{
+  filter:invert(100%);
+  width:40px;
+  padding: 0 10px;
+}
+
+.linkd-img{
+  filter:invert(100%);
+  width:40px;
+  padding: 0 10px;
+}
+
+.Contact .social a img:hover{
+  filter:invert(0%);
+}
+
+.icons{
+  width:35px;
+  filter: invert(100%);
+  /* padding-top:40px; */
+}
+
+.addr{
+  padding: 40px;
+}
+
+.phone{
+  padding: 40px;
+}
+
+.email{
+  padding: 40px;
+}
+
+.social{
+  padding: 40px;
+}
+
+.Contact div{
+  margin: 0 22px 0;
+}
